@@ -1,0 +1,6 @@
+{
+  "name": "AuraDev - Web Development Studio & Admin Hub",
+  "description": "Website development business platform featuring bespoke digital solutions, client enquiries, and a secure Supabase-powered admin dashboard in Purple and Graphite Gray.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

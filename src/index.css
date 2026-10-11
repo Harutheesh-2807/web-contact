@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-graphite-950: #0a0c10;
+    --color-graphite-900: #10131a;
+    --color-graphite-850: #151922;
+    --color-graphite-800: #1b202c;
+    --color-graphite-700: #262c3d;
+    --color-graphite-600: #373f54;
+    --color-purple-accent: #8b5cf6;
+    --color-purple-glow: rgba(139, 92, 246, 0.25);
+  }
+
+  body {
+    background-color: #0b0d13;
+    color: #e2e8f0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1219;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #283042;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9;
+}
+
+.graphite-gradient {
+  background: linear-gradient(135deg, #131722 0%, #0d0f17 100%);
+}
+
+.purple-glow-border {
+  border-color: rgba(139, 92, 246, 0.3);
+  box-shadow: 0 0 15px -3px rgba(139, 92, 246, 0.15);
+}
+
+.purple-glow-card {
+  box-shadow: 0 0 25px -5px rgba(139, 92, 246, 0.12);
+}
